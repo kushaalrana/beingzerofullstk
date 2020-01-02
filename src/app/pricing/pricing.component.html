@@ -1,1 +1,10 @@
-<p>pricing works!</p>
+<h1> count {{count}} </h1>
+<div class="container">
+<div *ngFor="let usr of users.arr" class="card" style="width:30%">
+    <div> {{usr.login}}</div>
+<img src="{{usr.avatar_url}}" height=400px width=400px class="img-thumbnail">
+
+</div>
+
+
+</div>
