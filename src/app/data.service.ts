@@ -9,7 +9,7 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getData(){
-    //https://api.github.com/users write this or the down one in http.get('here')
-    return  this.http.get('https://api.github.com/users?since=43180236');
+    
+    return  this.http.get('https://api.github.com/users');
   }
 }
